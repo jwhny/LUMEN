@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html" class="logo">LUMEN</a>
+            <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="menu-principal"></button>
+            <nav id="menu-principal">
+                <a href="index.html">Inicio</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="galeria.html">Galería</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contactos</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-header">
+            <span>CONTACTO</span>
+            <h1>Contacto</h1>
+            <p>Escríbenos si deseas realizar una consulta, compartir una propuesta o conocer más sobre LUMEN</p>
+        </section>
+        <section class="contact-layout">
+            <div class="contact-info">
+                <span>HABLEMOS</span>
+                <h2>Tu mensaje también puede formar parte de la conversación</h2>
+                <p>Completa el formulario y nos pondremos en contacto contigo</p>
+                <div class="contact-data">
+                    <p><strong>Correo:</strong> contacto@lumen.pe</p>
+                    <p><strong>Instagram:</strong> @lumen.cultura</p>
+                </div>
+            </div>
+            <div class="contact">
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" placeholder="Tu nombre" required>
+                    <label for="correo">Correo electrónico</label>
+                    <input id="correo" type="email" placeholder="Tu correo" required>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <button type="submit">ENVIAR MENSAJE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">LUMEN</div>
+        <p>Revista digital de Arte y Cultura</p>
+        <p class="copyright">© 2026 LUMEN — Arte &amp; Cultura</p>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
